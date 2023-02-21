@@ -1,9 +1,9 @@
-nome = str(input('Qual seu nome? '))
-idade = int(input('Qual sua idade? '))
+n1 = int(input('Digite o primeiro numero: '))
+n2 = int(input('Digite o segundo numero: '))
 
-if idade < 18:
-    print('Voce ainda nn precisa se alistar {}!'.format(nome))
-elif idade == 18:
-    print('Esta na hora de ir se Alistar {}!'.format(nome))
-elif idade > 18:
-    print('Ja passou do seu tempo de se alistar {}!'.format(nome))
+if n1 > n2:
+    print('O primeiro numero é maior :D')
+elif n2 > n1:
+    print('O segundo numero é Maior :D')
+else:
+    print('Os dois são iguais')
